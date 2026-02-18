@@ -1,20 +1,51 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# SushiYou ChefCard Pro 🍣
 
-# Run and deploy your AI Studio app
+Профессиональная система управления технологическими картами для суши-бара.
+Разработано для внутреннего использования, с поддержкой облачного хранения данных и авторизации.
 
-This contains everything you need to run your app locally.
+## 🚀 Функционал
+- **Технологические карты**: Создание, редактирование, удаление блюд.
+- **Расчет**: Автоматический учет ингредиентов и выхода.
+- **Печать**: Оптимизированный формат для кухни (по категориям, компактный вид).
+- **AI Генерация**: Автоматическое создание рецептуры с помощью Gemini AI.
+- **Облако**: Синхронизация данных через Supabase (PostgreSQL).
+- **Безопасность**: Ролевая модель (Admin/User).
 
-View your app in AI Studio: https://ai.studio/apps/drive/1VYuOG0H8m-G7LnII90IxK8mqF1--M5sj
+## 🛠 Технологии
+- **Frontend**: React, TypeScript, Vite, Tailwind CSS
+- **Backend**: Supabase (Auth, Database, RLS)
+- **AI**: Google Gemini API
+- **Deployment**: Vercel
 
-## Run Locally
+## 📦 Установка и запуск
+1.  **Клонировать репозиторий:**
+    ```bash
+    git clone https://github.com/Kamal-web-95/sushiyou.tech.git
+    cd sushiyou.tech
+    ```
 
-**Prerequisites:**  Node.js
+2.  **Установить зависимости:**
+    ```bash
+    npm install
+    ```
 
+3.  **Настроить окружение:**
+    Создайте файл `.env.local` в корне проекта:
+    ```env
+    VITE_SUPABASE_URL=your_supabase_url
+    VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+    VITE_GEMINI_API_KEY=your_gemini_key (опционально)
+    ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+4.  **Запустить локально:**
+    ```bash
+    npm run dev
+    ```
+
+## ☁️ Деплой (Vercel)
+Проект настроен для деплоя на Vercel. Просто импортируйте репозиторий и добавьте Environment Variables.
+
+## 🔐 Права доступа
+- **User**: Просмотр карт, печать.
+- **Admin**: Редактирование, удаление, миграция данных, управление ингредиентами.
+  *(Роль Admin выдается через базу данных Supabase)*.

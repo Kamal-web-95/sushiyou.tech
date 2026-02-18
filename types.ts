@@ -11,6 +11,7 @@ export interface TechnicalCard {
   dishName: string;
   category?: DishCategory;
   ingredients: Ingredient[];
+  cookingMethod?: string;
   totalOutput: string;
   imageData: string | null;
   lastUpdated: number;
