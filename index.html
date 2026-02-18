@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SushiYou - Технические карты</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            serif: ['Inter', 'sans-serif'], // Fallback to sans for safety
+          },
+          colors: {
+            primary: {
+              50: '#fff1f2',
+              100: '#ffe4e6',
+              500: '#f43f5e',
+              600: '#e11d48', // Rose-600
+              700: '#be123c',
+            },
+            rose: {
+              50: '#fff1f2',
+              100: '#ffe4e6',
+              200: '#fecdd3',
+              300: '#fda4af',
+              400: '#fb7185',
+              500: '#ff6548', // Lighter
+              600: '#FF4220', // Target Brand Color
+              700: '#d9381b', // Darker
+              800: '#9f1239',
+              900: '#881337',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    .font-serif {
+      font-family: 'Playfair Display', serif;
+    }
+
+    /* Print Styles */
+    @media print {
+      @page {
+        size: A4;
+        margin: 1cm;
+        /* Standard print margin */
+      }
+
+      body {
+        background: white;
+        color: black;
+        height: auto;
+      }
+
+      #root {
+        display: block !important;
+        height: auto !important;
+        overflow: visible !important;
+      }
+
+      /* Hide elements marked as no-print */
+      .no-print {
+        display: none !important;
+      }
+
+      /* Show the print container */
+      .print-only {
+        display: block !important;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background: white;
+        position: absolute;
+        /* Take it out of flow if needed, but usually block is fine if everything else is hidden */
+        top: 0;
+        left: 0;
+      }
+
+      /* Ensure the print container's children are visible */
+      .print-only * {
+        visibility: visible !important;
+      }
+
+      .page-break-after {
+        page-break-after: always;
+        break-after: page;
+      }
+    }
+  </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "lucide-react": "https://esm.sh/lucide-react@^0.574.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.41.0"
+  }
+}
+</script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+
+<body class="bg-slate-50 text-slate-900">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+
+</html>

@@ -1,0 +1,3326 @@
+{
+  "source_file": "тех.карта 2026.docx",
+  "items": [
+    {
+      "dish_name": "Ролл «Калифорния с лососем»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "140",
+            "type": "number",
+            "numeric": 140.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "авокадо",
+          "net_weight": {
+            "raw": "15",
+            "type": "number",
+            "numeric": 15.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1/2",
+            "type": "fraction",
+            "numeric": 0.5
+          }
+        },
+        {
+          "name": "майонез",
+          "net_weight": {
+            "raw": "6",
+            "type": "number",
+            "numeric": 6.0
+          }
+        },
+        {
+          "name": "лосось",
+          "net_weight": {
+            "raw": "70",
+            "type": "number",
+            "numeric": 70.0
+          }
+        },
+        {
+          "name": "масаго оранжевая",
+          "net_weight": {
+            "raw": "35",
+            "type": "number",
+            "numeric": 35.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "285",
+        "type": "number",
+        "numeric": 285.0
+      },
+      "id": 1
+    },
+    {
+      "dish_name": "Ролл «Калифорния с креветкой»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "140",
+            "type": "number",
+            "numeric": 140.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "15",
+            "type": "number",
+            "numeric": 15.0
+          }
+        },
+        {
+          "name": "авокадо",
+          "net_weight": {
+            "raw": "15",
+            "type": "number",
+            "numeric": 15.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1/2",
+            "type": "fraction",
+            "numeric": 0.5
+          }
+        },
+        {
+          "name": "креветка",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        },
+        {
+          "name": "масаго бордовая",
+          "net_weight": {
+            "raw": "35",
+            "type": "number",
+            "numeric": 35.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "285",
+        "type": "number",
+        "numeric": 285.0
+      },
+      "id": 2
+    },
+    {
+      "dish_name": "Ролл «Калифорния ночная»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "140",
+            "type": "number",
+            "numeric": 140.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "15",
+            "type": "number",
+            "numeric": 15.0
+          }
+        },
+        {
+          "name": "авокадо",
+          "net_weight": {
+            "raw": "15",
+            "type": "number",
+            "numeric": 15.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1/2",
+            "type": "fraction",
+            "numeric": 0.5
+          }
+        },
+        {
+          "name": "краб",
+          "net_weight": {
+            "raw": "35",
+            "type": "number",
+            "numeric": 35.0
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        },
+        {
+          "name": "масаго черная",
+          "net_weight": {
+            "raw": "35",
+            "type": "number",
+            "numeric": 35.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "285",
+        "type": "number",
+        "numeric": 285.0
+      },
+      "id": 3
+    },
+    {
+      "dish_name": "Ролл Калифорния с крабом",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "140",
+            "type": "number",
+            "numeric": 140.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "15",
+            "type": "number",
+            "numeric": 15.0
+          }
+        },
+        {
+          "name": "авокадо",
+          "net_weight": {
+            "raw": "15",
+            "type": "number",
+            "numeric": 15.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1/2",
+            "type": "fraction",
+            "numeric": 0.5
+          }
+        },
+        {
+          "name": "краб",
+          "net_weight": {
+            "raw": "60",
+            "type": "number",
+            "numeric": 60.0
+          }
+        },
+        {
+          "name": "майонез",
+          "net_weight": {
+            "raw": "5",
+            "type": "number",
+            "numeric": 5.0
+          }
+        },
+        {
+          "name": "масаго оранжевая",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "260",
+        "type": "number",
+        "numeric": 260.0
+      },
+      "id": 4
+    },
+    {
+      "dish_name": "Ролл «Каппа-Рэд»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "110",
+            "type": "number",
+            "numeric": 110.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "50",
+            "type": "number",
+            "numeric": 50.0
+          }
+        },
+        {
+          "name": "соус спайси",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "190",
+        "type": "number",
+        "numeric": 190.0
+      },
+      "id": 5
+    },
+    {
+      "dish_name": "Ролл «Горячий шик»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "120",
+            "type": "number",
+            "numeric": 120.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "авокадо",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1/2",
+            "type": "fraction",
+            "numeric": 0.5
+          }
+        },
+        {
+          "name": "лосось",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "50",
+            "type": "number",
+            "numeric": 50.0
+          }
+        },
+        {
+          "name": "тобико красная",
+          "net_weight": {
+            "raw": "7",
+            "type": "number",
+            "numeric": 7.0
+          }
+        },
+        {
+          "name": "кляр и панировочный сухари",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "фирменный соус",
+          "net_weight": {
+            "raw": "60",
+            "type": "number",
+            "numeric": 60.0
+          }
+        },
+        {
+          "name": "унаги соус",
+          "net_weight": {
+            "raw": "8",
+            "type": "number",
+            "numeric": 8.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "360",
+        "type": "number",
+        "numeric": 360.0
+      },
+      "id": 6
+    },
+    {
+      "dish_name": "Ролл «Филадельфия унаги»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "140",
+            "type": "number",
+            "numeric": 140.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "авокадо",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1/2",
+            "type": "fraction",
+            "numeric": 0.5
+          }
+        },
+        {
+          "name": "унаги",
+          "net_weight": {
+            "raw": "50",
+            "type": "number",
+            "numeric": 50.0
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "70",
+            "type": "number",
+            "numeric": 70.0
+          }
+        },
+        {
+          "name": "кунжут",
+          "net_weight": {
+            "raw": "4",
+            "type": "number",
+            "numeric": 4.0
+          }
+        },
+        {
+          "name": "соус унаги",
+          "net_weight": {
+            "raw": "5",
+            "type": "number",
+            "numeric": 5.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "310",
+        "type": "number",
+        "numeric": 310.0
+      },
+      "id": 7
+    },
+    {
+      "dish_name": "Ролл «Цезарь»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "120",
+            "type": "number",
+            "numeric": 120.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "50",
+            "type": "number",
+            "numeric": 50.0
+          }
+        },
+        {
+          "name": "лист салата",
+          "net_weight": {
+            "raw": "5",
+            "type": "number",
+            "numeric": 5.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1.0
+          }
+        },
+        {
+          "name": "шапка",
+          "net_weight": {
+            "raw": "100",
+            "type": "number",
+            "numeric": 100.0
+          }
+        },
+        {
+          "name": "майонез",
+          "net_weight": {
+            "raw": "4",
+            "type": "number",
+            "numeric": 4.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "275",
+        "type": "number",
+        "numeric": 275.0
+      },
+      "id": 8
+    },
+    {
+      "dish_name": "Ролл «Тигровый дракон»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "140",
+            "type": "number",
+            "numeric": 140.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "авокадо",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "красный тобико",
+          "net_weight": {
+            "raw": "5",
+            "type": "number",
+            "numeric": 5.0
+          }
+        },
+        {
+          "name": "креветки отварные",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "65",
+            "type": "number",
+            "numeric": 65.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1/2",
+            "type": "fraction",
+            "numeric": 0.5
+          }
+        },
+        {
+          "name": "унаги",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "290",
+        "type": "number",
+        "numeric": 290.0
+      },
+      "id": 9
+    },
+    {
+      "dish_name": "Ролл «Тайфун»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "120",
+            "type": "number",
+            "numeric": 120.0
+          }
+        },
+        {
+          "name": "нори кусков",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        },
+        {
+          "name": "авокадо",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "тобико микс",
+          "net_weight": {
+            "raw": "5",
+            "type": "number",
+            "numeric": 5.0
+          }
+        },
+        {
+          "name": "креветки жареные",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "50",
+            "type": "number",
+            "numeric": 50.0
+          }
+        },
+        {
+          "name": "унаги",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        },
+        {
+          "name": "лосось жареный",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "кляр",
+          "net_weight": {
+            "raw": "36",
+            "type": "number",
+            "numeric": 36.0
+          }
+        },
+        {
+          "name": "сухарики",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "фирменный соус",
+          "net_weight": {
+            "raw": "100",
+            "type": "number",
+            "numeric": 100.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "390",
+        "type": "number",
+        "numeric": 390.0
+      },
+      "id": 10
+    },
+    {
+      "dish_name": "Ролл «Красный дракон»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "140",
+            "type": "number",
+            "numeric": 140.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1/2",
+            "type": "fraction",
+            "numeric": 0.5
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        },
+        {
+          "name": "угорь",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        },
+        {
+          "name": "лосось",
+          "net_weight": {
+            "raw": "60",
+            "type": "number",
+            "numeric": 60.0
+          }
+        },
+        {
+          "name": "тобико",
+          "net_weight": {
+            "raw": "5",
+            "type": "number",
+            "numeric": 5.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "300",
+        "type": "number",
+        "numeric": 300.0
+      },
+      "id": 11
+    },
+    {
+      "dish_name": "Ролл «Бешеный лосось»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "120",
+            "type": "number",
+            "numeric": 120.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1/2",
+            "type": "fraction",
+            "numeric": 0.5
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "25",
+            "type": "number",
+            "numeric": 25.0
+          }
+        },
+        {
+          "name": "масаго зеленая и красный",
+          "net_weight": {
+            "raw": "15",
+            "type": "number",
+            "numeric": 15.0
+          }
+        },
+        {
+          "name": "лосось",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        },
+        {
+          "name": "унаги",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        },
+        {
+          "name": "кунжут микс",
+          "net_weight": {
+            "raw": "8",
+            "type": "number",
+            "numeric": 8.0
+          }
+        },
+        {
+          "name": "шапка",
+          "net_weight": {
+            "raw": "80",
+            "type": "number",
+            "numeric": 80.0
+          }
+        },
+        {
+          "name": "фирменный соус",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "360",
+        "type": "number",
+        "numeric": 360.0
+      },
+      "id": 12
+    },
+    {
+      "dish_name": "Ролл «Дикий лосось»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "140",
+            "type": "number",
+            "numeric": 140.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1/2",
+            "type": "fraction",
+            "numeric": 0.5
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "60",
+            "type": "number",
+            "numeric": 60.0
+          }
+        },
+        {
+          "name": "креветка отварная",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        },
+        {
+          "name": "лосось заморозка",
+          "net_weight": {
+            "raw": "70",
+            "type": "number",
+            "numeric": 70.0
+          }
+        },
+        {
+          "name": "соус",
+          "net_weight": {
+            "raw": "8",
+            "type": "number",
+            "numeric": 8.0
+          }
+        },
+        {
+          "name": "унаги",
+          "net_weight": {
+            "raw": "5",
+            "type": "number",
+            "numeric": 5.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "328",
+        "type": "number",
+        "numeric": 328.0
+      },
+      "id": 13
+    },
+    {
+      "dish_name": "Ролл с огурцом",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "110",
+            "type": "number",
+            "numeric": 110.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "50",
+            "type": "number",
+            "numeric": 50.0
+          }
+        },
+        {
+          "name": "майонез",
+          "net_weight": {
+            "raw": "5",
+            "type": "number",
+            "numeric": 5.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "165",
+        "type": "number",
+        "numeric": 165.0
+      },
+      "id": 14
+    },
+    {
+      "dish_name": "Ролл «Нежный»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "130",
+            "type": "number",
+            "numeric": 130.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1/2",
+            "type": "fraction",
+            "numeric": 0.5
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "60",
+            "type": "number",
+            "numeric": 60.0
+          }
+        },
+        {
+          "name": "авокадо",
+          "net_weight": {
+            "raw": "25",
+            "type": "number",
+            "numeric": 25.0
+          }
+        },
+        {
+          "name": "лосось",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        },
+        {
+          "name": "замес на нежный",
+          "net_weight": {
+            "raw": "65",
+            "type": "number",
+            "numeric": 65.0
+          }
+        },
+        {
+          "name": "унаги",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "325",
+        "type": "number",
+        "numeric": 325.0
+      },
+      "id": 15
+    },
+    {
+      "dish_name": "Ролл «Мидори»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "140",
+            "type": "number",
+            "numeric": 140.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1/2",
+            "type": "fraction",
+            "numeric": 0.5
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "60",
+            "type": "number",
+            "numeric": 60.0
+          }
+        },
+        {
+          "name": "авокадо сверху",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "креветки",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        },
+        {
+          "name": "фирменный соус",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        },
+        {
+          "name": "унаги",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        },
+        {
+          "name": "кунжут",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "310",
+        "type": "number",
+        "numeric": 310.0
+      },
+      "id": 16
+    },
+    {
+      "dish_name": "Ролл «Сяке-Тори»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "120",
+            "type": "number",
+            "numeric": 120.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1.0
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "курица",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        },
+        {
+          "name": "мука",
+          "net_weight": {
+            "raw": "2",
+            "type": "number",
+            "numeric": 2.0
+          }
+        },
+        {
+          "name": "кляр",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        },
+        {
+          "name": "панировочные сухари",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "шапка",
+          "net_weight": {
+            "raw": "80",
+            "type": "number",
+            "numeric": 80.0
+          }
+        },
+        {
+          "name": "фирменный соус",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        },
+        {
+          "name": "унаги",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "360",
+        "type": "number",
+        "numeric": 360.0
+      },
+      "id": 17
+    },
+    {
+      "dish_name": "Ролл «Мексиканец»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "120",
+            "type": "number",
+            "numeric": 120.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1/2",
+            "type": "fraction",
+            "numeric": 0.5
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "креветки",
+          "net_weight": {
+            "raw": "15",
+            "type": "number",
+            "numeric": 15.0
+          }
+        },
+        {
+          "name": "лосось",
+          "net_weight": {
+            "raw": "15",
+            "type": "number",
+            "numeric": 15.0
+          }
+        },
+        {
+          "name": "масаго оранжевая",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        },
+        {
+          "name": "шапка",
+          "net_weight": {
+            "raw": "80",
+            "type": "number",
+            "numeric": 80.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "310",
+        "type": "number",
+        "numeric": 310.0
+      },
+      "id": 18
+    },
+    {
+      "dish_name": "Ролл «Сакура»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "120",
+            "type": "number",
+            "numeric": 120.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1/2",
+            "type": "fraction",
+            "numeric": 0.5
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "25",
+            "type": "number",
+            "numeric": 25.0
+          }
+        },
+        {
+          "name": "авокадо",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "кляр жареный",
+          "net_weight": {
+            "raw": "5",
+            "type": "number",
+            "numeric": 5.0
+          }
+        },
+        {
+          "name": "лосось",
+          "net_weight": {
+            "raw": "25",
+            "type": "number",
+            "numeric": 25.0
+          }
+        },
+        {
+          "name": "масаго микс",
+          "net_weight": {
+            "raw": "4",
+            "type": "number",
+            "numeric": 4.0
+          }
+        },
+        {
+          "name": "шапка",
+          "net_weight": {
+            "raw": "80",
+            "type": "number",
+            "numeric": 80.0
+          }
+        },
+        {
+          "name": "унаги",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        },
+        {
+          "name": "масаго красная",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "315",
+        "type": "number",
+        "numeric": 315.0
+      },
+      "id": 19
+    },
+    {
+      "dish_name": "Ролл «Фирменный»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "120",
+            "type": "number",
+            "numeric": 120.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1/2",
+            "type": "fraction",
+            "numeric": 0.5
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "35",
+            "type": "number",
+            "numeric": 35.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "25",
+            "type": "number",
+            "numeric": 25.0
+          }
+        },
+        {
+          "name": "авокадо",
+          "net_weight": {
+            "raw": "15",
+            "type": "number",
+            "numeric": 15.0
+          }
+        },
+        {
+          "name": "тобико",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        },
+        {
+          "name": "кунжут",
+          "net_weight": {
+            "raw": "5",
+            "type": "number",
+            "numeric": 5.0
+          }
+        },
+        {
+          "name": "шапка",
+          "net_weight": {
+            "raw": "70",
+            "type": "number",
+            "numeric": 70.0
+          }
+        },
+        {
+          "name": "Фирменный соус",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        },
+        {
+          "name": "унаги",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "350",
+        "type": "number",
+        "numeric": 350.0
+      },
+      "id": 20
+    },
+    {
+      "dish_name": "Ролл «Сяке-темпура»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "120",
+            "type": "number",
+            "numeric": 120.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1/2",
+            "type": "fraction",
+            "numeric": 0.5
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "50",
+            "type": "number",
+            "numeric": 50.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "лосось",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        },
+        {
+          "name": "кляр",
+          "net_weight": {
+            "raw": "35",
+            "type": "number",
+            "numeric": 35.0
+          }
+        },
+        {
+          "name": "панировочные сухари",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "330",
+        "type": "number",
+        "numeric": 330.0
+      },
+      "id": 21
+    },
+    {
+      "dish_name": "Ролл «Эби-темпура»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "120",
+            "type": "number",
+            "numeric": 120.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1/2",
+            "type": "fraction",
+            "numeric": 0.5
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "50",
+            "type": "number",
+            "numeric": 50.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "креветка",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        },
+        {
+          "name": "кляр",
+          "net_weight": {
+            "raw": "35",
+            "type": "number",
+            "numeric": 35.0
+          }
+        },
+        {
+          "name": "панировочные сухари",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "330",
+        "type": "number",
+        "numeric": 330.0
+      },
+      "id": 22
+    },
+    {
+      "dish_name": "Ролл «Унаги-темпура»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "120",
+            "type": "number",
+            "numeric": 120.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1/2",
+            "type": "fraction",
+            "numeric": 0.5
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "50",
+            "type": "number",
+            "numeric": 50.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "угорь",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        },
+        {
+          "name": "кляр",
+          "net_weight": {
+            "raw": "35",
+            "type": "number",
+            "numeric": 35.0
+          }
+        },
+        {
+          "name": "панировочные сухари",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        },
+        {
+          "name": "унаги",
+          "net_weight": {
+            "raw": "5",
+            "type": "number",
+            "numeric": 5.0
+          }
+        },
+        {
+          "name": "кунжут",
+          "net_weight": {
+            "raw": "2",
+            "type": "number",
+            "numeric": 2.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "337",
+        "type": "number",
+        "numeric": 337.0
+      },
+      "id": 23
+    },
+    {
+      "dish_name": "Ролл «Ойси»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "140",
+            "type": "number",
+            "numeric": 140.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1/2",
+            "type": "fraction",
+            "numeric": 0.5
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "50",
+            "type": "number",
+            "numeric": 50.0
+          }
+        },
+        {
+          "name": "лосось сверху",
+          "net_weight": {
+            "raw": "60",
+            "type": "number",
+            "numeric": 60.0
+          }
+        },
+        {
+          "name": "лосось",
+          "net_weight": {
+            "raw": "45",
+            "type": "number",
+            "numeric": 45.0
+          }
+        },
+        {
+          "name": "фирменный соус сверху",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        },
+        {
+          "name": "масаго красная",
+          "net_weight": {
+            "raw": "5",
+            "type": "number",
+            "numeric": 5.0
+          }
+        },
+        {
+          "name": "унаги",
+          "net_weight": {
+            "raw": "5",
+            "type": "number",
+            "numeric": 5.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "345",
+        "type": "number",
+        "numeric": 345.0
+      },
+      "id": 24
+    },
+    {
+      "dish_name": "Запеченная калифорния",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "120",
+            "type": "number",
+            "numeric": 120.0
+          }
+        },
+        {
+          "name": "масаго красная",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "60",
+            "type": "number",
+            "numeric": 60.0
+          }
+        },
+        {
+          "name": "шапка",
+          "net_weight": {
+            "raw": "80",
+            "type": "number",
+            "numeric": 80.0
+          }
+        },
+        {
+          "name": "сверху тобико красная",
+          "net_weight": {
+            "raw": "2",
+            "type": "number",
+            "numeric": 2.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1/2",
+            "type": "fraction",
+            "numeric": 0.5
+          }
+        }
+      ],
+      "yield": {
+        "raw": "282",
+        "type": "number",
+        "numeric": 282.0
+      },
+      "id": 25
+    },
+    {
+      "dish_name": "Ролл «Вулкан»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "120",
+            "type": "number",
+            "numeric": 120.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1.0
+          }
+        },
+        {
+          "name": "шапка",
+          "net_weight": {
+            "raw": "80",
+            "type": "number",
+            "numeric": 80.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "лосось",
+          "net_weight": {
+            "raw": "50",
+            "type": "number",
+            "numeric": 50.0
+          }
+        },
+        {
+          "name": "панировочные сухари",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "265",
+        "type": "number",
+        "numeric": 265.0
+      },
+      "id": 26
+    },
+    {
+      "dish_name": "Ролл с крабом",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "110",
+            "type": "number",
+            "numeric": 110.0
+          }
+        },
+        {
+          "name": "краб",
+          "net_weight": {
+            "raw": "60",
+            "type": "number",
+            "numeric": 60.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1.0
+          }
+        },
+        {
+          "name": "майонез",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "190",
+        "type": "number",
+        "numeric": 190.0
+      },
+      "id": 27
+    },
+    {
+      "dish_name": "Ролл с лососем",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "110",
+            "type": "number",
+            "numeric": 110.0
+          }
+        },
+        {
+          "name": "лосось",
+          "net_weight": {
+            "raw": "60",
+            "type": "number",
+            "numeric": 60.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1.0
+          }
+        },
+        {
+          "name": "майонез",
+          "net_weight": {
+            "raw": "5",
+            "type": "number",
+            "numeric": 5.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "175",
+        "type": "number",
+        "numeric": 175.0
+      },
+      "id": 28
+    },
+    {
+      "dish_name": "Ролл с авокадо",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "110",
+            "type": "number",
+            "numeric": 110.0
+          }
+        },
+        {
+          "name": "авокадо",
+          "net_weight": {
+            "raw": "60",
+            "type": "number",
+            "numeric": 60.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1.0
+          }
+        },
+        {
+          "name": "майонез",
+          "net_weight": {
+            "raw": "5",
+            "type": "number",
+            "numeric": 5.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "175",
+        "type": "number",
+        "numeric": 175.0
+      },
+      "id": 29
+    },
+    {
+      "dish_name": "Ролл с креветкой",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "110",
+            "type": "number",
+            "numeric": 110.0
+          }
+        },
+        {
+          "name": "креветка",
+          "net_weight": {
+            "raw": "60",
+            "type": "number",
+            "numeric": 60.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1.0
+          }
+        },
+        {
+          "name": "майонез",
+          "net_weight": {
+            "raw": "5",
+            "type": "number",
+            "numeric": 5.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "175",
+        "type": "number",
+        "numeric": 175.0
+      },
+      "id": 30
+    },
+    {
+      "dish_name": "Ролл с угрем",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "110",
+            "type": "number",
+            "numeric": 110.0
+          }
+        },
+        {
+          "name": "угорь",
+          "net_weight": {
+            "raw": "60",
+            "type": "number",
+            "numeric": 60.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1.0
+          }
+        },
+        {
+          "name": "майонез",
+          "net_weight": {
+            "raw": "5",
+            "type": "number",
+            "numeric": 5.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "175",
+        "type": "number",
+        "numeric": 175.0
+      },
+      "id": 31
+    },
+    {
+      "dish_name": "Ролл с тунцом",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "110",
+            "type": "number",
+            "numeric": 110.0
+          }
+        },
+        {
+          "name": "спайси соус",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1.0
+          }
+        },
+        {
+          "name": "тунец",
+          "net_weight": {
+            "raw": "60",
+            "type": "number",
+            "numeric": 60.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "200",
+        "type": "number",
+        "numeric": 200.0
+      },
+      "id": 32
+    },
+    {
+      "dish_name": "Ролл «Вега»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "110",
+            "type": "number",
+            "numeric": 110.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1.0
+          }
+        },
+        {
+          "name": "майонез",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        },
+        {
+          "name": "болгарский перец",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "лист салата",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "170",
+        "type": "number",
+        "numeric": 170.0
+      },
+      "id": 33
+    },
+    {
+      "dish_name": "Ролл «Запечённая Филадельфия»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "140",
+            "type": "number",
+            "numeric": 140.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "авокадо",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "70",
+            "type": "number",
+            "numeric": 70.0
+          }
+        },
+        {
+          "name": "лосось",
+          "net_weight": {
+            "raw": "70",
+            "type": "number",
+            "numeric": 70.0
+          }
+        },
+        {
+          "name": "унаги",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "300",
+        "type": "number",
+        "numeric": 300.0
+      },
+      "id": 34
+    },
+    {
+      "dish_name": "Ролл «Запечённый лосось»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "120",
+            "type": "number",
+            "numeric": 120.0
+          }
+        },
+        {
+          "name": "лосось",
+          "net_weight": {
+            "raw": "45",
+            "type": "number",
+            "numeric": 45.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1.0
+          }
+        },
+        {
+          "name": "Спайси соус",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "205",
+        "type": "number",
+        "numeric": 205.0
+      },
+      "id": 35
+    },
+    {
+      "dish_name": "Ролл «Ночной Токио»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "120",
+            "type": "number",
+            "numeric": 120.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "15",
+            "type": "number",
+            "numeric": 15.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1.0
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        },
+        {
+          "name": "авокадо",
+          "net_weight": {
+            "raw": "15",
+            "type": "number",
+            "numeric": 15.0
+          }
+        },
+        {
+          "name": "шапка",
+          "net_weight": {
+            "raw": "80",
+            "type": "number",
+            "numeric": 80.0
+          }
+        },
+        {
+          "name": "унаги",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        },
+        {
+          "name": "масаго зеленая и красная",
+          "net_weight": {
+            "raw": "4",
+            "type": "number",
+            "numeric": 4.0
+          }
+        },
+        {
+          "name": "лосось жареный",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "294",
+        "type": "number",
+        "numeric": 294.0
+      },
+      "id": 36
+    },
+    {
+      "dish_name": "Ролл «Кани Темпура»",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "120",
+            "type": "number",
+            "numeric": 120.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "краб",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        },
+        {
+          "name": "панировочные сухари",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1.0
+          }
+        },
+        {
+          "name": "тобико красный",
+          "net_weight": {
+            "raw": "2",
+            "type": "number",
+            "numeric": 2.0
+          }
+        },
+        {
+          "name": "спайси",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        },
+        {
+          "name": "мука",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        },
+        {
+          "name": "кляр",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "280",
+        "type": "number",
+        "numeric": 280.0
+      },
+      "id": 37
+    },
+    {
+      "dish_name": "Запеченная креветка",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "110",
+            "type": "number",
+            "numeric": 110.0
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        },
+        {
+          "name": "креветка",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        },
+        {
+          "name": "спайси соус",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        },
+        {
+          "name": "унаги",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        },
+        {
+          "name": "кунжут",
+          "net_weight": {
+            "raw": "5",
+            "type": "number",
+            "numeric": 5.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "235",
+        "type": "number",
+        "numeric": 235.0
+      },
+      "id": 38
+    },
+    {
+      "dish_name": "Яки тори",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "120",
+            "type": "number",
+            "numeric": 120.0
+          }
+        },
+        {
+          "name": "авокадо",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "26",
+            "type": "number",
+            "numeric": 26.0
+          }
+        },
+        {
+          "name": "шапка",
+          "net_weight": {
+            "raw": "64",
+            "type": "number",
+            "numeric": 64.0
+          }
+        },
+        {
+          "name": "унаги",
+          "net_weight": {
+            "raw": "5",
+            "type": "number",
+            "numeric": 5.0
+          }
+        },
+        {
+          "name": "кунжут",
+          "net_weight": {
+            "raw": "2",
+            "type": "number",
+            "numeric": 2.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "2",
+            "type": "number",
+            "numeric": 2.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "330",
+        "type": "number",
+        "numeric": 330.0
+      },
+      "id": 39
+    },
+    {
+      "dish_name": "Ролл с крабом",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "110",
+            "type": "number",
+            "numeric": 110.0
+          }
+        },
+        {
+          "name": "краб",
+          "net_weight": {
+            "raw": "60",
+            "type": "number",
+            "numeric": 60.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1.0
+          }
+        },
+        {
+          "name": "майонез",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "190",
+        "type": "number",
+        "numeric": 190.0
+      },
+      "id": 40
+    },
+    {
+      "dish_name": "Ролл Китаяма",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "120",
+            "type": "number",
+            "numeric": 120.0
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "50",
+            "type": "number",
+            "numeric": 50.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "25",
+            "type": "number",
+            "numeric": 25.0
+          }
+        },
+        {
+          "name": "курица жаренная",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        },
+        {
+          "name": "имбирь",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        },
+        {
+          "name": "соус хасеки",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        },
+        {
+          "name": "соус терияки",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        },
+        {
+          "name": "сыр жаренный",
+          "net_weight": {
+            "raw": "8",
+            "type": "number",
+            "numeric": 8.0
+          }
+        },
+        {
+          "name": "кляр",
+          "net_weight": {
+            "raw": "8",
+            "type": "number",
+            "numeric": 8.0
+          }
+        },
+        {
+          "name": "Красная масаго",
+          "net_weight": {
+            "raw": "5",
+            "type": "number",
+            "numeric": 5.0
+          }
+        },
+        {
+          "name": "Черная масаго",
+          "net_weight": {
+            "raw": "5",
+            "type": "number",
+            "numeric": 5.0
+          }
+        },
+        {
+          "name": "Кунжут черный и белый",
+          "net_weight": {
+            "raw": "8",
+            "type": "number",
+            "numeric": 8.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "329",
+        "type": "number",
+        "numeric": 329.0
+      },
+      "id": 41
+    },
+    {
+      "dish_name": "Ролл “Сяке фурай”",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "120",
+            "type": "number",
+            "numeric": 120.0
+          }
+        },
+        {
+          "name": "креветка",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1.0
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        },
+        {
+          "name": "фирменный соус",
+          "net_weight": {
+            "raw": "80",
+            "type": "number",
+            "numeric": 80.0
+          }
+        },
+        {
+          "name": "масаго черная",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "300",
+        "type": "number",
+        "numeric": 300.0
+      },
+      "id": 42
+    },
+    {
+      "dish_name": "Ролл Магуро",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "140",
+            "type": "number",
+            "numeric": 140.0
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "80",
+            "type": "number",
+            "numeric": 80.0
+          }
+        },
+        {
+          "name": "авокадо",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "Масаго красная сверху",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        },
+        {
+          "name": "спайси",
+          "net_weight": {
+            "raw": "15",
+            "type": "number",
+            "numeric": 15.0
+          }
+        },
+        {
+          "name": "унаги",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1.2",
+            "type": "number",
+            "numeric": 1.2
+          }
+        },
+        {
+          "name": "тунец",
+          "net_weight": {
+            "raw": "70",
+            "type": "number",
+            "numeric": 70.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "250",
+        "type": "number",
+        "numeric": 250.0
+      },
+      "id": 43
+    },
+    {
+      "dish_name": "Чикен Темпура",
+      "ingredients": [
+        {
+          "name": "нори на кусков",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        },
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "120",
+            "type": "number",
+            "numeric": 120.0
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "25",
+            "type": "number",
+            "numeric": 25.0
+          }
+        },
+        {
+          "name": "курица жаренная",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        },
+        {
+          "name": "сухари панировочные",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        },
+        {
+          "name": "кляр",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        },
+        {
+          "name": "унаги",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "310",
+        "type": "number",
+        "numeric": 310.0
+      },
+      "id": 44
+    },
+    {
+      "dish_name": "Бешеный краб",
+      "ingredients": [
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1/2",
+            "type": "fraction",
+            "numeric": 0.5
+          }
+        },
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "120",
+            "type": "number",
+            "numeric": 120.0
+          }
+        },
+        {
+          "name": "краб",
+          "net_weight": {
+            "raw": "35",
+            "type": "number",
+            "numeric": 35.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "масаго кр\\зел",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "микс кунжута",
+          "net_weight": {
+            "raw": "5",
+            "type": "number",
+            "numeric": 5.0
+          }
+        },
+        {
+          "name": "унаги",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        },
+        {
+          "name": "фирмен.соус",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        },
+        {
+          "name": "шапка беш.сверху",
+          "net_weight": {
+            "raw": "80",
+            "type": "number",
+            "numeric": 80.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "360",
+        "type": "number",
+        "numeric": 360.0
+      },
+      "id": 45
+    },
+    {
+      "dish_name": "Ролл «Филадельфия XL»",
+      "ingredients": [
+        {
+          "name": "огурцы",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "150",
+            "type": "number",
+            "numeric": 150.0
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "80",
+            "type": "number",
+            "numeric": 80.0
+          }
+        },
+        {
+          "name": "авокадо",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "лосось",
+          "net_weight": {
+            "raw": "140",
+            "type": "number",
+            "numeric": 140.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1/2",
+            "type": "fraction",
+            "numeric": 0.5
+          }
+        }
+      ],
+      "yield": {
+        "raw": "450",
+        "type": "number",
+        "numeric": 450.0
+      },
+      "id": 46
+    },
+    {
+      "dish_name": "Бешеный дракон",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "120",
+            "type": "number",
+            "numeric": 120.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1.0
+          }
+        },
+        {
+          "name": "имбирь",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        },
+        {
+          "name": "помидоры черри",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        },
+        {
+          "name": "лист салата",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "креветки в темпура с хвостиком",
+          "net_weight": {
+            "raw": "50",
+            "type": "number",
+            "numeric": 50.0
+          }
+        },
+        {
+          "name": "спайси соус",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        },
+        {
+          "name": "унаги соус",
+          "net_weight": {
+            "raw": "10",
+            "type": "number",
+            "numeric": 10.0
+          }
+        },
+        {
+          "name": "кунжут",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1.0
+          }
+        },
+        {
+          "name": "лук зеленый",
+          "net_weight": {
+            "raw": "2",
+            "type": "number",
+            "numeric": 2.0
+          }
+        },
+        {
+          "name": "мука",
+          "net_weight": {
+            "raw": "5",
+            "type": "number",
+            "numeric": 5.0
+          }
+        },
+        {
+          "name": "кляр",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        },
+        {
+          "name": "сухари панировочные",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "315",
+        "type": "number",
+        "numeric": 315.0
+      },
+      "id": 47
+    },
+    {
+      "dish_name": "Ролл Темпура фурай",
+      "ingredients": [
+        {
+          "name": "рис",
+          "net_weight": {
+            "raw": "120",
+            "type": "number",
+            "numeric": 120.0
+          }
+        },
+        {
+          "name": "сыр",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40.0
+          }
+        },
+        {
+          "name": "огурец",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20.0
+          }
+        },
+        {
+          "name": "лосось",
+          "net_weight": {
+            "raw": "50",
+            "type": "number",
+            "numeric": 50.0
+          }
+        },
+        {
+          "name": "Фирменный соус",
+          "net_weight": {
+            "raw": "80",
+            "type": "number",
+            "numeric": 80.0
+          }
+        },
+        {
+          "name": "кунжут",
+          "net_weight": {
+            "raw": "2",
+            "type": "number",
+            "numeric": 2.0
+          }
+        },
+        {
+          "name": "Унаги соус",
+          "net_weight": {
+            "raw": "6",
+            "type": "number",
+            "numeric": 6.0
+          }
+        },
+        {
+          "name": "нори",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1.0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "450",
+        "type": "number",
+        "numeric": 450.0
+      },
+      "id": 48
+    }
+  ],
+  "count": 48
+}
