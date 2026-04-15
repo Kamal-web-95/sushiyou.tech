@@ -13,6 +13,7 @@ interface CardListProps {
   onSelect?: (id: string) => void;
   onHeaderSelect?: (category: string) => void;
   activeCategoryFilter?: string;
+  searchQuery?: string;
   onView?: (card: TechnicalCard) => void;
 }
 

@@ -1,0 +1,197 @@
+{
+  "source_file": "supabase_db_export",
+  "export_date": "2026-04-15T14:13:48.684Z",
+  "items": [
+    {
+      "id": "761a463e-d0e4-44ca-a3d5-dcf6b1291d77",
+      "dish_name": "Гункан Яки",
+      "ingredients": [
+        {
+          "name": "Рис",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20
+          }
+        },
+        {
+          "name": "Нори",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1
+          }
+        },
+        {
+          "name": "Шапка",
+          "net_weight": {
+            "raw": "25",
+            "type": "number",
+            "numeric": 25
+          }
+        },
+        {
+          "name": "Унаги",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1
+          }
+        },
+        {
+          "name": "Кунжут",
+          "net_weight": {
+            "raw": "1",
+            "type": "number",
+            "numeric": 1
+          }
+        }
+      ],
+      "yield": {
+        "raw": "45 гр.",
+        "type": "number",
+        "numeric": 45
+      },
+      "category": "Гунканы",
+      "cooking_method": ""
+    },
+    {
+      "id": "ce3ffd78-46d7-4234-bb56-b7f6a11adfac",
+      "dish_name": "Ролл «Калифорния с лососем»",
+      "ingredients": [
+        {
+          "name": "Рис",
+          "net_weight": {
+            "raw": "140",
+            "type": "number",
+            "numeric": 140
+          }
+        },
+        {
+          "name": "Огурец",
+          "net_weight": {
+            "raw": "20",
+            "type": "number",
+            "numeric": 20
+          }
+        },
+        {
+          "name": "Авокадо",
+          "net_weight": {
+            "raw": "15",
+            "type": "number",
+            "numeric": 15
+          }
+        },
+        {
+          "name": "Нори",
+          "net_weight": {
+            "raw": "1/2",
+            "type": "number",
+            "numeric": 1
+          }
+        },
+        {
+          "name": "Майонез",
+          "net_weight": {
+            "raw": "6",
+            "type": "number",
+            "numeric": 6
+          }
+        },
+        {
+          "name": "Лосось",
+          "net_weight": {
+            "raw": "70",
+            "type": "number",
+            "numeric": 70
+          }
+        },
+        {
+          "name": "Масаго (оранжевая)",
+          "net_weight": {
+            "raw": "30",
+            "type": "number",
+            "numeric": 30
+          }
+        }
+      ],
+      "yield": {
+        "raw": "285",
+        "type": "number",
+        "numeric": 285
+      },
+      "category": "Холодные",
+      "cooking_method": ""
+    },
+    {
+      "id": "15e6d9be-0f91-487a-8c79-1bc645198b63",
+      "dish_name": "Ролл «Калифорния с креветкой»",
+      "ingredients": [
+        {
+          "name": "Рис",
+          "net_weight": {
+            "raw": "140",
+            "type": "number",
+            "numeric": 140
+          }
+        },
+        {
+          "name": "Огурец",
+          "net_weight": {
+            "raw": "15",
+            "type": "number",
+            "numeric": 15
+          }
+        },
+        {
+          "name": "Авокадо",
+          "net_weight": {
+            "raw": "15",
+            "type": "number",
+            "numeric": 15
+          }
+        },
+        {
+          "name": "Нори",
+          "net_weight": {
+            "raw": "1/2",
+            "type": "number",
+            "numeric": 1
+          }
+        },
+        {
+          "name": "Креветка",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40
+          }
+        },
+        {
+          "name": "Сыр",
+          "net_weight": {
+            "raw": "40",
+            "type": "number",
+            "numeric": 40
+          }
+        },
+        {
+          "name": "Масаго (бордовая)",
+          "net_weight": {
+            "raw": "",
+            "type": "number",
+            "numeric": 0
+          }
+        }
+      ],
+      "yield": {
+        "raw": "285",
+        "type": "number",
+        "numeric": 285
+      },
+      "category": "Холодные",
+      "cooking_method": ""
+    }
+  ]
+}

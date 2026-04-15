@@ -17,6 +17,15 @@ export interface TechnicalCard {
   lastUpdated: number;
 }
 
-export type ViewMode = 'list' | 'create' | 'edit';
+export type ViewMode = 'list' | 'create' | 'edit' | 'admin';
 
 export type UserRole = 'admin' | 'user';
+export type ProfileStatus = 'pending' | 'approved' | 'blocked';
+
+export interface UserProfile {
+  id: string;
+  email: string;
+  role: UserRole;
+  status: ProfileStatus;
+  created_at: string;
+}
