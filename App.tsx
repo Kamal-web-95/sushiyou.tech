@@ -783,7 +783,11 @@ const App: React.FC = () => {
         )}
       </div>
 
-      <div className="print-only">
+      <div className="print-only print:pb-12">
+        <div className="hidden print:block fixed bottom-0 left-0 right-0 w-full text-center text-[9px] text-slate-500 py-2 bg-white">
+          SushiYou.tech — База ТТК | {userEmail}
+        </div>
+
         {isBatchPrinting && (
           <div>
             {(() => {
@@ -803,12 +807,8 @@ const App: React.FC = () => {
                       </div>
                     )}
 
-                    <div className="print-item break-inside-avoid relative">
+                    <div className="print-item break-inside-avoid relative mb-4">
                       <PrintLayout card={card} />
-                      {/* Visible footer watermark per card in batch */}
-                      <div className="mt-8 text-[9px] text-slate-500 text-center border-t border-slate-200 pt-2 print:mt-12">
-                        SushiYou.tech — База ТТК | {userEmail}
-                      </div>
                     </div>
                   </React.Fragment>
                 );
@@ -819,10 +819,6 @@ const App: React.FC = () => {
         {!isBatchPrinting && printingCard && (
            <div className="relative">
              <PrintLayout card={printingCard} />
-             {/* Visible footer watermark for single print */}
-             <div className="mt-8 text-[9px] text-slate-500 text-center border-t border-slate-200 pt-2 print:mt-12">
-                SushiYou.tech — База ТТК | {userEmail}
-             </div>
            </div>
         )}
       </div>
