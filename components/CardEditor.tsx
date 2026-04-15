@@ -389,10 +389,17 @@ export const CardEditor: React.FC<CardEditorProps> = ({ initialCard, availableCa
             </div>
           </div>
         ) : (
-          <div className="p-4 md:p-8 flex justify-center bg-slate-200/50 min-h-full overflow-x-auto">
-            <div className="shadow-xl w-full min-w-[700px] max-w-[210mm] bg-white">
+          <div className="md:p-8 bg-slate-200/50 min-h-full overflow-hidden flex justify-center pb-[400px] sm:pb-[200px] md:pb-8 pt-4 md:pt-0">
+            <div className="shadow-xl bg-white flex-shrink-0 w-[794px] md:w-full md:max-w-[210mm] origin-top print-preview-scaler">
               <PrintLayout card={previewCard} />
             </div>
+            <style>{`
+              @media (max-width: 768px) {
+                .print-preview-scaler {
+                  transform: scale(calc(100vw / 820));
+                }
+              }
+            `}</style>
           </div>
         )}
       </div>
