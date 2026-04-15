@@ -28,4 +28,5 @@ export interface UserProfile {
   role: UserRole;
   status: ProfileStatus;
   created_at: string;
+  metadata?: Record<string, string>;
 }

@@ -1,7 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { UserProfile, UserRole, ProfileStatus } from '../types';
 import { supabase } from '../lib/supabase';
-import { CheckCircle, XCircle, Shield, ShieldOff, Clock, Search, RefreshCw, User, Action, MoreVertical, LogIn, FileText, Printer, FileDown, Trash2, Eye } from 'lucide-react';
+import { CheckCircle, XCircle, Shield, ShieldOff, Clock, Search, RefreshCw, User, Action, MoreVertical, LogIn, FileText, Printer, FileDown, Trash2, Eye, Plus, X, Edit, XOctagon, UserPlus, Database } from 'lucide-react';
+import { supabaseUrl, supabaseAnonKey } from '../lib/supabase';
+import { createClient } from '@supabase/supabase-js';
+import { AddUserModal, MetadataManagerModal } from './AdminUserModals';
 
 interface AdminDashboardProps {
   onCheckLogs?: () => void;
@@ -16,6 +19,10 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = () => {
   
   // For mobile floating action menus
   const [openActionMenuId, setOpenActionMenuId] = useState<string | null>(null);
+
+  // Modals state
+  const [isAddUserModalOpen, setIsAddUserModalOpen] = useState(false);
+  const [metadataUser, setMetadataUser] = useState<UserProfile | null>(null);
 
   useEffect(() => {
     fetchData();
@@ -197,7 +204,13 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = () => {
             <p className="text-slate-400 font-medium animate-pulse">Синхронизация данных...</p>
           </div>
         ) : activeTab === 'users' ? (
-          <div className="space-y-4">
+          <div className="flex flex-col">
+            <div className="flex justify-end mb-4 px-1 sm:px-0">
+               <button onClick={() => setIsAddUserModalOpen(true)} className="flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-xl text-xs sm:text-sm font-bold shadow-md shadow-indigo-600/20 transition-all">
+                  <UserPlus size={16} /> Добавить франчайзи
+               </button>
+            </div>
+            <div className="space-y-4">
             {filteredUsers.length === 0 ? (
                <div className="bg-white rounded-3xl p-12 text-center shadow-sm border border-slate-100">
                   <User size={48} className="mx-auto text-slate-200 mb-4" />
@@ -237,9 +250,15 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = () => {
                           </span>
                         </div>
                         <div className="flex gap-4 text-xs font-medium text-slate-500">
-                          <span className="flex items-center gap-1">
+                          <span className="flex items-center gap-1 flex-wrap">
                              <Clock size={12} className="opacity-50" />
                              Регистрация: {user.created_at ? new Date(user.created_at).toLocaleDateString() : '—'}
+                             
+                             {user.metadata && Object.keys(user.metadata).length > 0 && (
+                                <span className="ml-2 px-1.5 py-0.5 bg-slate-100 rounded text-[9px] text-slate-400 uppercase tracking-widest font-bold">
+                                   С пометками
+                                </span>
+                             )}
                           </span>
                         </div>
                       </div>
@@ -324,6 +343,17 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = () => {
                                <Eye size={16} className="text-indigo-500" />
                                Смотреть логи
                              </button>
+
+                             <button 
+                               onClick={() => {
+                                 setMetadataUser(user);
+                                 setOpenActionMenuId(null);
+                               }}
+                               className="w-full text-left px-4 py-2 text-sm text-emerald-600 hover:bg-emerald-50 font-medium flex gap-2 items-center rounded-b-2xl"
+                             >
+                               <Database size={16} className="text-emerald-500" />
+                               Доп. Информация
+                             </button>
                           </div>
                         )}
                       </div>
@@ -401,6 +431,27 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = () => {
           </div>
         )}
       </div>
+
+      {isAddUserModalOpen && (
+        <AddUserModal
+          onClose={() => setIsAddUserModalOpen(false)}
+          onSuccess={() => {
+             setIsAddUserModalOpen(false);
+             fetchUsers(); // Refresh the list
+          }}
+        />
+      )}
+
+      {metadataUser && (
+        <MetadataManagerModal
+          user={metadataUser}
+          onClose={() => setMetadataUser(null)}
+          onSuccess={(updatedUser) => {
+             setUsers(prev => prev.map(u => u.id === updatedUser.id ? updatedUser : u));
+             setMetadataUser(null);
+          }}
+        />
+      )}
     </div>
   );
 };
