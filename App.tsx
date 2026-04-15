@@ -138,9 +138,9 @@ const App: React.FC = () => {
            localCats = localCategoriesStr ? JSON.parse(localCategoriesStr) : null;
         } catch(e) {}
         if (!Array.isArray(localCats)) localCats = [...DEFAULT_CATEGORIES];
-        localCats = localCats.filter((c: string) => c && c.trim() !== '');
+        localCats = localCats.filter((c: any) => typeof c === 'string' && c.trim() !== '');
 
-        const dbCats = mappedCards.map((c: any) => c.category).filter((c: string) => c && c.trim() !== '');
+        const dbCats = mappedCards.map((c: any) => c.category).filter((c: any) => typeof c === 'string' && c.trim() !== '');
         
         // Extract categories preserving local order first
         const allCats = Array.from(new Set([...localCats, ...dbCats]));
