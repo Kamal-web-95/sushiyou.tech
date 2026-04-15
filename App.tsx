@@ -11,6 +11,8 @@ import { Plus, Printer, LogOut, Upload, CloudUpload, Settings, FolderEdit, Searc
 import { supabase } from './lib/supabase';
 import { migrateDataToSupabase } from './services/migration';
 import { AdminDashboard } from './components/AdminDashboard';
+import { CategoryManagerModal } from './components/CategoryManagerModal';
+import { ChangeCategoryModal } from './components/ChangeCategoryModal';
 import { ProfileStatus } from './types';
 import { logAction } from './services/logger';
 
