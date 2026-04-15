@@ -364,6 +364,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = () => {
               })
             )}
           </div>
+        </div>
         ) : (
           <div className="space-y-3">
              <div className="flex justify-between items-center px-1 mb-1">
