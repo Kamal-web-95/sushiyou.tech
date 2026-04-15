@@ -133,10 +133,14 @@ const App: React.FC = () => {
         setCards(mappedCards);
 
         const localCategoriesStr = localStorage.getItem(STORAGE_KEY_CATEGORIES);
-        let localCats: string[] = localCategoriesStr ? JSON.parse(localCategoriesStr) : [...DEFAULT_CATEGORIES];
+        let localCats: string[] | null = null;
+        try {
+           localCats = localCategoriesStr ? JSON.parse(localCategoriesStr) : null;
+        } catch(e) {}
+        if (!Array.isArray(localCats)) localCats = [...DEFAULT_CATEGORIES];
         localCats = localCats.filter((c: string) => c && c.trim() !== '');
 
-        const dbCats = mappedCards.map(c => c.category).filter(c => c && c.trim() !== '');
+        const dbCats = mappedCards.map((c: any) => c.category).filter((c: string) => c && c.trim() !== '');
         
         // Extract categories preserving local order first
         const allCats = Array.from(new Set([...localCats, ...dbCats]));
@@ -259,7 +263,9 @@ const App: React.FC = () => {
   };
 
   const handleAddNewCategory = (name: string) => {
-      const newCats = [...availableCategories, name];
+      const cleanName = name.trim();
+      if (!cleanName || availableCategories.includes(cleanName)) return;
+      const newCats = [...availableCategories, cleanName];
       setAvailableCategories(newCats);
       localStorage.setItem(STORAGE_KEY_CATEGORIES, JSON.stringify(newCats));
   };
@@ -776,13 +782,6 @@ const App: React.FC = () => {
       </div>
 
       <div className="print-only">
-        {/* Hidden Steganographic Overlay */}
-        <div className="absolute inset-0 z-[9999] pointer-events-none opacity-[0.03] text-[9px] break-all leading-tight text-slate-900 select-all overflow-hidden flex flex-wrap content-start">
-          {Array.from({ length: 400 }).map((_, i) => (
-             <span key={i} className="mr-8 mb-4">{userEmail} / {userId} / {new Date().toISOString()}</span>
-          ))}
-        </div>
-
         {isBatchPrinting && (
           <div>
             {(() => {
@@ -805,9 +804,8 @@ const App: React.FC = () => {
                     <div className="print-item break-inside-avoid relative">
                       <PrintLayout card={card} />
                       {/* Visible footer watermark per card in batch */}
-                      <div className="mt-8 text-[10px] text-slate-400 flex justify-between border-t border-slate-200 pt-2 print:mt-12">
-                        <span>SushiYou.tech — Профессиональная база</span>
-                        <span>Экспорт: {userEmail} | {new Date().toLocaleString()}</span>
+                      <div className="mt-8 text-[9px] text-slate-500 text-center border-t border-slate-200 pt-2 print:mt-12">
+                        SushiYou.tech — База ТТК | {userEmail}
                       </div>
                     </div>
                   </React.Fragment>
@@ -820,9 +818,8 @@ const App: React.FC = () => {
            <div className="relative">
              <PrintLayout card={printingCard} />
              {/* Visible footer watermark for single print */}
-             <div className="mt-8 text-[10px] text-slate-400 flex justify-between border-t border-slate-200 pt-2 print:mt-12 absolute bottom-0 left-0 right-0 w-full">
-               <span>SushiYou.tech — Профессиональная база</span>
-               <span>Экспорт: {userEmail} | {new Date().toLocaleString()}</span>
+             <div className="mt-8 text-[9px] text-slate-500 text-center border-t border-slate-200 pt-2 print:mt-12">
+                SushiYou.tech — База ТТК | {userEmail}
              </div>
            </div>
         )}

@@ -389,8 +389,8 @@ export const CardEditor: React.FC<CardEditorProps> = ({ initialCard, availableCa
             </div>
           </div>
         ) : (
-          <div className="p-4 md:p-8 flex justify-center bg-slate-200/50 min-h-full">
-            <div className="shadow-xl w-full max-w-[210mm]">
+          <div className="p-4 md:p-8 flex justify-center bg-slate-200/50 min-h-full overflow-x-auto">
+            <div className="shadow-xl w-full min-w-[700px] max-w-[210mm] bg-white">
               <PrintLayout card={previewCard} />
             </div>
           </div>
